@@ -107,8 +107,7 @@ header#header a img.logo{
 header#header nav {
  padding: 0 20px;
  margin-right: 1.4rem;
- position: relative;
-
+ 
 }
 header#header nav a{
   font-size: 1rem;
@@ -202,8 +201,8 @@ header#header nav .fa-bag-shopping{
   gap: 5px;
  }
 #feature.section-p1 div.card{
-    padding: 20px 15px;
-    border: 1px solid #cce7d0; 
+  width: 150px;
+     border: 1px solid #cce7d0; 
     border-radius: 4px ;
     cursor: pointer; 
     transition: all 0.3s linear;
@@ -407,7 +406,7 @@ footer#footer{
 }
 footer#footer div.contact{
   padding: 10px 15px;
-  margin-top: 30px;
+  margin-top: 25px;
   
 }
 footer#footer .contact p{
@@ -423,6 +422,7 @@ footer#footer  a{
 footer#footer div.about,footer#footer div.account{
   width: 200px;
   height: 190px;
+  
 
 }
 footer#footer div.instal{

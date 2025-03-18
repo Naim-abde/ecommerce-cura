@@ -1,0 +1,360 @@
+/* ipad  */
+@media screen and (max-width:799px )     {
+    .section-p1{
+        padding: 40px;
+    }
+    nav{
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 99vh;
+        width: 300px;
+        position: fixed;
+        top: 0;
+
+        right: -350px;
+        padding: 88px 0 0 10px;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        background-color: #cdd1e6;
+        transition:  all 0.4s ease;
+         
+
+
+    }
+    nav.active{
+        right: -23px;
+    }
+    
+    nav a:nth-child(1){
+        margin-top: 50px;
+    }
+    div#mobile{
+        display: flex;
+        align-items: center;
+        
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    /* nav.active{
+        right: -20px;
+    } */
+    nav a {
+        margin-bottom: 40px;
+        
+        
+    }
+    a i#close{
+        display: flex;
+        font-size: 28px;
+        color: #222;
+    }
+    a#close i{
+        font-size: 24px;
+        color: #222;
+
+    }
+    #header nav .fa-bag-shopping{
+        display: none;
+    }
+    #img-slider .slide img{
+        object-position:top 30% right 30% ;
+      }
+      
+    .img-slide .slide-active .info {
+        padding: 0 40px;
+    }
+    .img-slide .slide-active .info h4{
+        padding-bottom: 10px;
+    }
+    #feature.section-p1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        gap: 5px;
+       }
+       #feature.section-p1 div.card{
+        width: 150px;
+           border: 1px solid #cce7d0; 
+          border-radius: 4px ;
+          cursor: pointer; 
+          transition: all 0.3s linear;
+          margin-bottom: 20px;
+        
+      }
+      #product1.section-p2 div.product-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 80%;
+       flex-wrap: wrap;
+       margin: auto;  
+       gap: 30px;
+       margin-top: 80px;
+      }
+      #product1.section-p2 div.product-container .product{
+         padding: 10px 10px;
+         width: 250px;
+         border-radius: 10px;
+         margin-right: 5px;
+         height: 400px;
+         
+      
+      }
+      #categore.categore .best{
+        width: 700px;
+       height: 400px;
+       margin-top: 60px;
+       background-image: url(../asset/img3.jpg);
+       background-size: cover;   
+       background-position: center;   
+       background-repeat: no-repeat;
+       display: flex;
+       justify-content: start;
+       align-items: center;
+       
+     }
+      .ads{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        gap: 30px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+      }
+      .ads .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 320px;
+        height: 200px;
+        background-image: url(../asset/img4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .ads .card:nth-child(1){
+        display: none;
+      }
+
+     
+}
+ @media screen and (max-width:1024px) {
+    header#header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 80px;
+         
+      
+      }
+      header#header a img.logo{
+        margin-left: 2rem;
+        
+      }
+      header#header nav {
+       padding: 0 20px;
+       margin-right: 1.4rem;
+       
+      }
+      header#header nav a{
+         
+        padding: 5px 10px;
+         
+      
+      }
+      #feature.section-p1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+       }
+      #feature.section-p1 div.card{
+        width: 150px;
+           border: 1px solid #cce7d0; 
+          border-radius: 4px ;
+          cursor: pointer; 
+          transition: all 0.3s linear;
+          
+        
+      }
+      .ads .card:nth-child(1){
+        display: none;
+      }
+      #categore.categore .best{
+        width: 700px;
+       height: 400px;
+       margin-top: 60px;
+       background-image: url(../asset/img3.jpg);
+       background-size: cover;   
+       background-position: center;   
+       background-repeat: no-repeat;
+       display: flex;
+       justify-content: start;
+       align-items: center;
+    
+ }
+ 
+}
+@media screen and (max-width:477px){
+    footer#footer div.about,footer#footer div.account{
+        width: 200px;
+        height: 190px;
+        margin-left: 10px;
+        
+      
+      }
+      header#header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        background-color: #cdd1e6;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.219);
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 10;
+      
+      }
+      header#header a img.logo{
+        margin-left: 1rem;
+        
+      }
+      header#header nav {
+       padding: 0 10px;
+       margin-right: 1.1rem;
+       
+      }
+      nav{
+        width: 250px;
+
+      }
+      .section-p1{
+        padding: 20px;
+      }
+      .img-slider .slide .info {
+        padding: 0 20px;
+        top: 70%;
+        margin-top: 20px;
+        align-items: center;
+
+        }
+        .img-slider .slide .info h4{
+            padding-bottom:7px ;
+
+         }
+        .img-slider .active div.info h2{
+            line-height: 1;
+            font-size:1px ;
+            background-color: red;
+
+        }
+        #feature.section-p1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 99%;
+            margin: auto;
+            flex-wrap: wrap;
+            gap: 5px;
+           }
+          #feature.section-p1 div.card{
+            width: 160px;
+               border: 1px solid #cce7d0; 
+              border-radius: 4px ;
+              cursor: pointer; 
+              transition: all 0.3s linear;
+            
+          }
+          section.section-sign{
+            display: flex;
+           justify-content: space-around;
+           align-items: center;
+           width: 100%;
+           height: 150px;
+           margin: auto;
+           flex-direction: column;
+           background-image: url(../asset/banner/b1.jpg);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           margin-bottom: 20px;
+       
+         }
+         section.section-sign .sign-up {
+           padding: 0;
+          }
+         section.section-sign .sign-up #email{
+           width: 70%;
+           height: 100%;
+           padding: 12px 20px;
+           margin: 0;
+           margin-left: 9px;
+          }
+         section.section-sign .sign-up .submit{
+           width: 25%;
+           background-color: var(--primary-color);
+           color: white;
+           display: inline-block;
+           padding: 9px 9px;
+           margin-right: 3px;
+            
+          }
+          
+
+
+          #img-slider .slide .info{
+            position: absolute;
+            top: 70%;
+            transform: translateY(-70%);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            z-index: 1;
+            padding: 0 20px;
+          }
+          #img-slider .slide .info h2.color{
+            color: var(--primary-color);
+          }
+          #img-slider .slide .info h2{
+            width: 80vw;
+
+          }
+          .select-none{
+            user-select: none;
+          }
+          #img-slider .slide .info button{
+            background-image: url(../asset/button\ \(1\).png)  ;
+            background-size: contain;
+            color: var(--primary-color);  
+            border: 0;
+            padding: 14px 80px 14px 65px;
+            font-size: 15px;
+            font-weight: 700;
+           }
+           div p.credit{
+            text-align: start;
+            margin-left: 10px;
+           }
+
+    
+
+    
+}
+ 

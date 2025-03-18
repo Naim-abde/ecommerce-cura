@@ -10,24 +10,26 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./asset/favicon (1).ico"  >
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 <body>
     <!-- Header  -->
      <header id="header">
-        <a href="#"><img class="logo" src="./asset/logo (1).png" alt="logo" ></a>
-       <nav>
+        <a href="#"><img class="logo " src="./asset/logo (1).png" alt="logo" ></a>
+       <nav class="" id="nav">
+        <a href=""   ><i class="fa-solid fa-xmark text-neutral-950" id="close"></i></a>
+
           <a href="" class="active  ">Home</a>
           <a href="" >Shop</a>
           <a href="" >Blog</a>
           <a href="" >Contact</a>
           <a href="" ><i class="fa-solid fa-bag-shopping"></i></a>
-          <a href=""id="close" ><i class="fa-solid fa-xmark"></i></a>
-
+ 
         </nav>
         <div id="mobile">
             <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-            <i class="fa-solid fa-bars"></i>
+            <i id="bar" class="fa-solid fa-bars"></i>
 
         </div>
      </header>
@@ -35,7 +37,7 @@
       <section id="img-slider">
         <div class="slide active">
             <img src="asset/img2.jpg" alt="" srcset="">
-            <div class="info ">
+            <div class="info  ">
                 <h4 class="select-none font-medium pb-2 ps-2 ">Trade-In-Offer</h4>
                 <h2 class="select-none  text-5xl pb-4 font-bold text-">Super Values Deals</h2>
                 <h2 class="select-none text-5xl font-bold color ">On all Products</h2>
@@ -334,8 +336,9 @@
                     </div>
 
             </footer>
-            <p class="text-center text-sm   text-gray-700">all Right to Abdessamad Naim </p>
+            <p class="text-center text-sm credit   text-gray-700">all Right to Abdessamad Naim </p>
 
         </div>
+        <script src="script.js"></script>
 </body>
 </html>
